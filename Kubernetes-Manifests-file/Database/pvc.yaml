@@ -6,7 +6,8 @@ metadata:
 spec: 
   accessModes:  
     - ReadWriteOnce
-  storageClassName: gp2
+  storageClassName: gp2  # ✅ This enables AWS EBS dynamic provisioning
   resources:
     requests:
       storage: 1Gi
+
